@@ -8,6 +8,22 @@
     <title>New Campground</title>
 </head>
 <body>
+<form action="/campgrounds" method="post">
+    <div>
+        <label for="title">Title</label>
+        <input type="text" id="title" name="campground[title]">
+    </div>
+    <div>
+        <label for="location">Location</label>
+        <input type="text" id="location" name="campground[location]">
+    </div>
+    <button>Add button</button>
+</form>
+
+<div>space</div>
+
+<a href="/campgrounds">All posts</a>
+<p><a href="/campgrounds/new">New post</a></p>
 
 </body>
 </html>
