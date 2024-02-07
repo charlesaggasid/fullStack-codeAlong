@@ -2,7 +2,7 @@
 <a href="/campgrounds">All posts</a>
 <p><a href="/campgrounds/new">New post</a></p>
 <h1>All Campgrounds</h1>
-<ul>
+<ol>
     <% for (let campground of campgrounds) {%>
         <li>
             <a href="/campgrounds/<%= campground._id%>">
@@ -10,4 +10,4 @@
             </a>
         </li>
     <% }%>
-</ul>
+</ol>
